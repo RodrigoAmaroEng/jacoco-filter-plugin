@@ -1,0 +1,11 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground.coffee
+
+data class PayCompletedAction  (orderNumber: kotlin.String?) : br.eng.rodrigoamaro.architectureplayground.redux.Action {
+    val orderNumber: kotlin.String? /* compiled code */
+
+    operator fun component1(): kotlin.String? { /* compiled code */ }
+}
+

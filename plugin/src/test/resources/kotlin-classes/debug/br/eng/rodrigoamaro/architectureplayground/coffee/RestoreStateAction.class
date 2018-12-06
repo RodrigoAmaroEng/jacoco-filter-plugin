@@ -1,0 +1,11 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground.coffee
+
+data class RestoreStateAction  (state: br.eng.rodrigoamaro.architectureplayground.coffee.SaleState?) : br.eng.rodrigoamaro.architectureplayground.redux.Action {
+    val state: br.eng.rodrigoamaro.architectureplayground.coffee.SaleState? /* compiled code */
+
+    operator fun component1(): br.eng.rodrigoamaro.architectureplayground.coffee.SaleState? { /* compiled code */ }
+}
+

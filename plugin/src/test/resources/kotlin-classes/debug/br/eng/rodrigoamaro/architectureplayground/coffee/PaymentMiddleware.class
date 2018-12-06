@@ -1,0 +1,13 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground.coffee
+
+class PaymentMiddleware  (service: br.eng.rodrigoamaro.architectureplayground.coffee.PaymentService, launcher: br.eng.rodrigoamaro.architectureplayground.CoLauncher) : br.eng.rodrigoamaro.architectureplayground.redux.Middleware<br.eng.rodrigoamaro.architectureplayground.coffee.SaleState> {
+    private val launcher: br.eng.rodrigoamaro.architectureplayground.CoLauncher /* compiled code */
+
+    private val service: br.eng.rodrigoamaro.architectureplayground.coffee.PaymentService /* compiled code */
+
+    open fun dispatch(action: br.eng.rodrigoamaro.architectureplayground.redux.Action, dispatcher: br.eng.rodrigoamaro.architectureplayground.redux.Dispatcher, state: br.eng.rodrigoamaro.architectureplayground.coffee.SaleState?): br.eng.rodrigoamaro.architectureplayground.redux.Action { /* compiled code */ }
+}
+

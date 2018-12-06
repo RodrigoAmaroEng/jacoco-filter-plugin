@@ -1,0 +1,17 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground
+
+data class Money  (currency: kotlin.String /* = compiled code */, amount: java.math.BigDecimal /* = compiled code */) {
+    var amount: java.math.BigDecimal /* compiled code */
+
+    var currency: kotlin.String /* compiled code */
+
+    operator fun component1(): kotlin.String { /* compiled code */ }
+
+    operator fun component2(): java.math.BigDecimal { /* compiled code */ }
+
+    fun value(): kotlin.String { /* compiled code */ }
+}
+

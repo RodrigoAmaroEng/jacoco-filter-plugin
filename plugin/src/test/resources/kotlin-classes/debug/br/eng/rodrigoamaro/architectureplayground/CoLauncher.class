@@ -1,0 +1,9 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground
+
+interface CoLauncher {
+    fun launchThis(block: suspend kotlinx.coroutines.CoroutineScope.() -> kotlin.Unit): kotlinx.coroutines.Job
+}
+

@@ -1,0 +1,23 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground.coffee
+
+data class SaleState  (amount: br.eng.rodrigoamaro.architectureplayground.Money /* = compiled code */, coffees: kotlin.Int /* = compiled code */, status: br.eng.rodrigoamaro.architectureplayground.coffee.Status /* = compiled code */, orderNumber: kotlin.String? /* = compiled code */) : br.eng.rodrigoamaro.architectureplayground.redux.State {
+    val amount: br.eng.rodrigoamaro.architectureplayground.Money /* compiled code */
+
+    val coffees: kotlin.Int /* compiled code */
+
+    val orderNumber: kotlin.String? /* compiled code */
+
+    val status: br.eng.rodrigoamaro.architectureplayground.coffee.Status /* compiled code */
+
+    operator fun component1(): br.eng.rodrigoamaro.architectureplayground.Money { /* compiled code */ }
+
+    operator fun component2(): kotlin.Int { /* compiled code */ }
+
+    operator fun component3(): br.eng.rodrigoamaro.architectureplayground.coffee.Status { /* compiled code */ }
+
+    operator fun component4(): kotlin.String? { /* compiled code */ }
+}
+

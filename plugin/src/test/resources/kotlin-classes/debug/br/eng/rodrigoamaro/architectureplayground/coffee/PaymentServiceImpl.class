@@ -1,0 +1,11 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground.coffee
+
+class PaymentServiceImpl  (api: br.eng.rodrigoamaro.architectureplayground.coffee.Api) : br.eng.rodrigoamaro.architectureplayground.coffee.PaymentService {
+    private val api: br.eng.rodrigoamaro.architectureplayground.coffee.Api /* compiled code */
+
+    open suspend fun pay(invoice: br.eng.rodrigoamaro.architectureplayground.coffee.SaleState): br.eng.rodrigoamaro.architectureplayground.coffee.proto.Receipt? { /* compiled code */ }
+}
+

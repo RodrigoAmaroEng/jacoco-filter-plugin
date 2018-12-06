@@ -1,0 +1,17 @@
+// IntelliJ API Decompiler stub source generated from a class file
+// Implementation of methods is not available
+
+package br.eng.rodrigoamaro.architectureplayground.coffee
+
+class PaymentInteractor  (store: br.eng.rodrigoamaro.architectureplayground.redux.Store<br.eng.rodrigoamaro.architectureplayground.coffee.SaleState>, view: android.view.View, viewState: br.eng.rodrigoamaro.architectureplayground.coffee.ViewState) : br.eng.rodrigoamaro.architectureplayground.redux.SimpleInteractor<br.eng.rodrigoamaro.architectureplayground.coffee.SaleState> {
+    private val buttonCredit: android.widget.Button /* platform type */ /* compiled code */
+
+    private val buttonDebit: android.widget.Button /* platform type */ /* compiled code */
+
+    private val buttonVoucher: android.widget.Button /* platform type */ /* compiled code */
+
+    private val viewState: br.eng.rodrigoamaro.architectureplayground.coffee.ViewState /* compiled code */
+
+    open fun accept(state: br.eng.rodrigoamaro.architectureplayground.coffee.SaleState?): kotlin.Unit { /* compiled code */ }
+}
+
