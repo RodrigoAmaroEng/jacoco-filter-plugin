@@ -1,9 +1,0 @@
-// IntelliJ API Decompiler stub source generated from a class file
-// Implementation of methods is not available
-
-package br.eng.rodrigoamaro.architectureplayground.redux
-
-interface Reducer<S : br.eng.rodrigoamaro.architectureplayground.redux.State> {
-    fun reduce(action: br.eng.rodrigoamaro.architectureplayground.redux.Action, state: S): S
-}
-

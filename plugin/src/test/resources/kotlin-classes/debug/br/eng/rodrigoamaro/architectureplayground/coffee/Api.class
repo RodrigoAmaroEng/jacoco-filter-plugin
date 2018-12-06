@@ -1,9 +1,0 @@
-// IntelliJ API Decompiler stub source generated from a class file
-// Implementation of methods is not available
-
-package br.eng.rodrigoamaro.architectureplayground.coffee
-
-interface Api {
-    @retrofit2.http.GET fun payForCoffee(): kotlinx.coroutines.Deferred<retrofit2.Response<br.eng.rodrigoamaro.architectureplayground.coffee.proto.Receipt>>
-}
-

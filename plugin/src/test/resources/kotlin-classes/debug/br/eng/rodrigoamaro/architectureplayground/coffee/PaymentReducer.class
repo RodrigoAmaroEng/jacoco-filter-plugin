@@ -1,9 +1,0 @@
-// IntelliJ API Decompiler stub source generated from a class file
-// Implementation of methods is not available
-
-package br.eng.rodrigoamaro.architectureplayground.coffee
-
-class PaymentReducer  () : br.eng.rodrigoamaro.architectureplayground.redux.Reducer<br.eng.rodrigoamaro.architectureplayground.coffee.SaleState> {
-    open fun reduce(action: br.eng.rodrigoamaro.architectureplayground.redux.Action, state: br.eng.rodrigoamaro.architectureplayground.coffee.SaleState): br.eng.rodrigoamaro.architectureplayground.coffee.SaleState { /* compiled code */ }
-}
-
