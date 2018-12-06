@@ -25,6 +25,7 @@ class DiffCoverage(
     }
 
     fun calculate(): BigDecimal {
+        println("Filtering diff with valid source from '${sourcePath.path}'")
         if (doesNotHaveAtLeastOneFileOnSource())
             return BigDecimal(100).setScale(1)
 

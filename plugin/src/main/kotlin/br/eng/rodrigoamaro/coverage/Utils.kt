@@ -24,4 +24,4 @@ fun String.overlapIn(text: String) = IntRange(1, length)
     .map { substring(0, it) }
     .filter { text.endsWith(it) }
     .sortedByDescending { it.length }
-    .singleOrNull() ?: ""
+    .firstOrNull() ?: ""
