@@ -12,7 +12,8 @@ open class CoverageExtension(private val project: Project) {
     )
     var sourcePath: File = File(project.buildDir, "../src/main/java")
     val filters: MutableList<Filter> = mutableListOf()
-    val baseBranch: String = "develop"
+    var baseBranch: String = "develop"
+    var diffCoverageTarget: Int = 0
 
     fun filter(closure: Closure<FilterSetup>): FilterSetup {
         val filter = FilterSetup()
