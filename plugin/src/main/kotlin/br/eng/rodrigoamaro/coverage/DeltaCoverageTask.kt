@@ -36,7 +36,10 @@ open class DeltaCoverageTask : DefaultTask() {
         with(FileOutputStream(diffFile)) {
             write(outputStream.toString().toByteArray(Charsets.UTF_8))
         }
-        val coverage = DiffCoverage(diffFile.path, CoverageData("${configuration.destination}/merged.xml"))
+        val coverage = DiffCoverage(
+            diffFile.path, CoverageData("${configuration.destination}/merged.xml"),
+            configuration.sourcePath
+        )
         println("Coverage on new code: ${coverage.calculate()}")
 
     }

@@ -19,3 +19,9 @@ fun list(folder: File): List<File> {
 fun File.folders() = listFiles().filter { it.isDirectory }
 
 fun File.hasFoldersInside() = isDirectory && listFiles().any { it.isDirectory }
+
+fun String.overlapIn(text: String) = IntRange(1, length)
+    .map { substring(0, it) }
+    .filter { text.endsWith(it) }
+    .sortedByDescending { it.length }
+    .singleOrNull() ?: ""

@@ -12,7 +12,7 @@ import java.math.BigDecimal
 class ConverterTest {
 
     private val classPath = File(javaClass.classLoader.getResource("classes").file)
-    private val sourcePath = File("../../sample/src/main")
+    private val sourcePath = File("../sample/src/main")
     private val destination = File("./out/report")
 
     @Test
@@ -27,10 +27,22 @@ class ConverterTest {
     @Test
     fun deltaCoverageAllFilesPresent() {
         val coverageData = CoverageData(javaClass.classLoader.getResource("merged.xml").file)
-        val diffCoverage = DiffCoverage(javaClass.classLoader.getResource("diff-file").file, coverageData)
+        val diffCoverage = DiffCoverage(
+            javaClass.classLoader.getResource("diff-file").file, coverageData,
+            sourcePath
+        )
         val coverage = diffCoverage.calculate()
         Assert.assertEquals(coverage, BigDecimal(93).setScale(1))
     }
 
-
+    @Test
+    fun deltaCoverageNoFilesPresent() {
+        val coverageData = CoverageData(javaClass.classLoader.getResource("merged.xml").file)
+        val diffCoverage = DiffCoverage(
+            javaClass.classLoader.getResource("diff-file-no-changes").file,
+            coverageData, sourcePath
+        )
+        val coverage = diffCoverage.calculate()
+        Assert.assertEquals(coverage, BigDecimal(100).setScale(1))
+    }
 }
