@@ -19,7 +19,7 @@ repositories {
 }
 
 ext {
-    versionName = "1.0.1"
+    versionName = "1.0.2"
 }
 
 Properties props = new Properties()
